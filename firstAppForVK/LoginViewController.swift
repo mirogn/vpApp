@@ -57,6 +57,22 @@ class LoginViewController: UIViewController {
             scrollView.endEditing(true)
         }
 
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        
+        if loginField.text == "admin", passwordField.text == "12345" {
+            return true
+        }
+        
+        let alert = UIAlertController(title: "Ошибка", message: "Введен неверный логин или пароль", preferredStyle: .alert)
+        
+        let errorLogiAction = UIAlertAction(title: "Понятно", style: .default)
+        
+        alert.addAction(errorLogiAction)
+        
+        present(alert, animated: true)
+        
+        return false
+    }
 
     @IBAction func login(_ sender: UIButton) {
         

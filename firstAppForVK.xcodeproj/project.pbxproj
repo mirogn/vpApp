@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4BE3DB24F302C800606B9F /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4BE3DA24F302C800606B9F /* FriendsViewController.swift */; };
+		1D4BE3DD24F3030C00606B9F /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4BE3DC24F3030C00606B9F /* GroupsViewController.swift */; };
+		1D4BE3DF24F3034E00606B9F /* FriendsInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4BE3DE24F3034E00606B9F /* FriendsInfoViewController.swift */; };
+		1D4BE3E124F3038400606B9F /* GlobalGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4BE3E024F3038400606B9F /* GlobalGroupsViewController.swift */; };
 		1DBB37FB24EA75BC0012AE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB37FA24EA75BC0012AE0C /* AppDelegate.swift */; };
 		1DBB37FD24EA75BC0012AE0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB37FC24EA75BC0012AE0C /* SceneDelegate.swift */; };
 		1DBB37FF24EA75BC0012AE0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB37FE24EA75BC0012AE0C /* LoginViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4BE3DA24F302C800606B9F /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		1D4BE3DC24F3030C00606B9F /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		1D4BE3DE24F3034E00606B9F /* FriendsInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInfoViewController.swift; sourceTree = "<group>"; };
+		1D4BE3E024F3038400606B9F /* GlobalGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalGroupsViewController.swift; sourceTree = "<group>"; };
 		1DBB37F724EA75BC0012AE0C /* firstAppForVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstAppForVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBB37FA24EA75BC0012AE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DBB37FC24EA75BC0012AE0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 				1DBB37FA24EA75BC0012AE0C /* AppDelegate.swift */,
 				1DBB37FC24EA75BC0012AE0C /* SceneDelegate.swift */,
 				1DBB37FE24EA75BC0012AE0C /* LoginViewController.swift */,
+				1D4BE3DA24F302C800606B9F /* FriendsViewController.swift */,
+				1D4BE3DE24F3034E00606B9F /* FriendsInfoViewController.swift */,
+				1D4BE3DC24F3030C00606B9F /* GroupsViewController.swift */,
+				1D4BE3E024F3038400606B9F /* GlobalGroupsViewController.swift */,
 				1DBB380024EA75BC0012AE0C /* Main.storyboard */,
 				1DBB380324EA75BD0012AE0C /* Assets.xcassets */,
 				1DBB380524EA75BD0012AE0C /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4BE3DF24F3034E00606B9F /* FriendsInfoViewController.swift in Sources */,
+				1D4BE3DB24F302C800606B9F /* FriendsViewController.swift in Sources */,
+				1D4BE3E124F3038400606B9F /* GlobalGroupsViewController.swift in Sources */,
 				1DBB37FF24EA75BC0012AE0C /* LoginViewController.swift in Sources */,
 				1DBB37FB24EA75BC0012AE0C /* AppDelegate.swift in Sources */,
 				1DBB37FD24EA75BC0012AE0C /* SceneDelegate.swift in Sources */,
+				1D4BE3DD24F3030C00606B9F /* GroupsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
